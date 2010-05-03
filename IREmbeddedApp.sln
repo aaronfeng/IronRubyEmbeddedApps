@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IREmbeddedApp", "IREmbeddedApp\IREmbeddedApp.csproj", "{252B7E48-4D69-4AAF-AB8F-BCA432D0BF2E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRTestResources", "IRTestResources\IRTestResources.csproj", "{9FE6381A-B2E1-4B08-A9CC-F62CD14B719C}"
