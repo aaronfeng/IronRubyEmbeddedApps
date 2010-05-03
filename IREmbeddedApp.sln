@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IREmbeddedLibraries", "IREm
 		{252B7E48-4D69-4AAF-AB8F-BCA432D0BF2E} = {252B7E48-4D69-4AAF-AB8F-BCA432D0BF2E}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRRSpec", "IRRSpec\IRRSpec.csproj", "{36F1C523-CB51-460B-A042-1F153C8ACA33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{68CBAEDA-18CC-4CC0-8555-942890512EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68CBAEDA-18CC-4CC0-8555-942890512EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68CBAEDA-18CC-4CC0-8555-942890512EF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36F1C523-CB51-460B-A042-1F153C8ACA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F1C523-CB51-460B-A042-1F153C8ACA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F1C523-CB51-460B-A042-1F153C8ACA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F1C523-CB51-460B-A042-1F153C8ACA33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
