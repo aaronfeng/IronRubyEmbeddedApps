@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.50727</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{68CBAEDA-18CC-4CC0-8555-942890512EF8}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -14,6 +14,21 @@
     <OldToolsVersion>2.0</OldToolsVersion>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -39,6 +54,375 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\.document" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\bin\autospec" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\bin\spec" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\cucumber.yml" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\failing\diffing_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\failing\failing_implicit_docstrings_example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\failing\failure_in_after.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\failing\failure_in_before.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\failing\mocking_example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\failing\mocking_with_flexmock.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\failing\mocking_with_mocha.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\failing\mocking_with_rr.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\failing\partial_mock_example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\failing\pending_example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\failing\predicate_example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\failing\raising_example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\failing\syntax_error_example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\failing\team_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\failing\timeout_behaviour.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\custom_formatter.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\custom_matchers.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\dynamic_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\file_accessor.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\file_accessor_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\filtered_formatter.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\filtered_formatter_example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\greeter_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\helper_method_example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\implicit_docstrings_example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\io_processor.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\io_processor_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\mocking_example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\multi_threaded_example_group_runner.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\nested_classes_example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\options_example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\options_formatter.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\partial_mock_example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\pending_example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\predicate_example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\shared_example_group_example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\shared_stack_examples.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\simple_matcher_example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\stack.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\stack_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\stack_spec_with_nested_example_groups.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\stubbing_example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\passing\yielding_example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\examples\ruby1.9.compatibility\access_to_constants_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\before_and_after_blocks\before_and_after_blocks.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\command_line\line_number_option.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\command_line\line_number_option_with_example_with_no_name.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\example_groups\define_example_attribute.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\example_groups\example_group_with_should_methods.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\example_groups\implicit_docstrings.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\example_groups\nested_groups.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\expectations\customized_message.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\expectations\expect_change.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\expectations\expect_error.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\extensions\custom_example_group.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\formatters\custom_formatter.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\formatters\nested_formatter.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\interop\cucumber_stubs_dont_leak.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\interop\examples_and_tests_together.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\interop\rspec_output.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\interop\test_but_not_test_unit.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\interop\test_case_with_should_methods.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\load_paths\add_lib_to_load_path.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\load_paths\add_spec_to_load_path.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\matchers\define_diffable_matcher.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\matchers\define_matcher.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\matchers\define_matcher_outside_rspec.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\matchers\define_matcher_with_fluent_interface.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\matchers\define_wrapped_matcher.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\matchers\match_unless_raises.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\matchers\match_unless_raises_unexpected_error.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\mocks\block_local_expectations.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\mocks\mix_stubs_and_mocks.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\mocks\stub_implementation.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\mock_framework_integration\use_flexmock.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\mock_framework_integration\use_mocha.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\mock_framework_integration\use_rr.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\pending\pending_examples.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\runner\specify_line_number.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\spec_helper\spec_helper.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\step_definitions\running_rspec_steps.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\step_definitions\stubbing_steps.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\subject\explicit_subject.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\subject\implicit_subject.feature" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\support\env.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\features\support\matchers\smart_match.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\geminstaller.yml" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\History.rdoc" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\init.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\autotest\discover.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\autotest\rspec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\adapters\mock_frameworks\flexmock.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\adapters\mock_frameworks\mocha.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\adapters\mock_frameworks\rr.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\adapters\mock_frameworks\rspec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\autorun.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\deprecation.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\dsl.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\dsl\main.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\example.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\example\args_and_options.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\example\before_and_after_hooks.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\example\errors.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\example\example_group.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\example\example_group_factory.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\example\example_group_hierarchy.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\example\example_group_methods.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\example\example_group_proxy.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\example\example_matcher.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\example\example_methods.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\example\example_proxy.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\example\module_reopening_fix.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\example\pending.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\example\predicate_matchers.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\example\shared_example_group.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\example\subject.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\expectations.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\expectations\errors.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\expectations\extensions.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\expectations\extensions\kernel.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\expectations\fail_with.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\expectations\handler.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\extensions\instance_exec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\interop\test.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\interop\test\unit\autorunner.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\interop\test\unit\testcase.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\interop\test\unit\testresult.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\interop\test\unit\testsuite_adapter.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\interop\test\unit\ui\console\testrunner.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\be.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\be_close.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\be_instance_of.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\be_kind_of.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\change.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\compatibility.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\dsl.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\eql.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\equal.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\errors.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\exist.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\generated_descriptions.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\has.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\have.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\include.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\match.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\matcher.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\match_array.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\method_missing.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\operator_matcher.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\pretty.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\raise_exception.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\respond_to.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\satisfy.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\simple_matcher.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\throw_symbol.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\matchers\wrap_expectation.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\mocks.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\mocks\argument_expectation.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\mocks\argument_matchers.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\mocks\errors.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\mocks\error_generator.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\mocks\example_methods.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\mocks\extensions.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\mocks\extensions\object.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\mocks\framework.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\mocks\message_expectation.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\mocks\methods.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\mocks\mock.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\mocks\order_group.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\mocks\proxy.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\mocks\space.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\rake\spectask.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\rake\verify_rcov.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\ruby.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\backtrace_tweaker.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\class_and_arguments_parser.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\command_line.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\configuration.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\differs\default.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\differs\load-diff-lcs.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\drb_command_line.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\example_group_runner.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\extensions\kernel.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\formatter\base_formatter.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\formatter\base_text_formatter.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\formatter\failing_examples_formatter.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\formatter\failing_example_groups_formatter.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\formatter\html_formatter.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\formatter\nested_text_formatter.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\formatter\no_op_method_missing.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\formatter\profile_formatter.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\formatter\progress_bar_formatter.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\formatter\silent_formatter.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\formatter\snippet_extractor.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\formatter\specdoc_formatter.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\formatter\text_mate_formatter.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\heckle_runner.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\heckle_runner_unsupported.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\line_number_query.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\options.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\option_parser.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\runner\reporter.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\stubs\cucumber.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\test\unit.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\lib\spec\version.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\Rakefile" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\README.rdoc" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\resources\helpers\cmdline.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\resources\rake\examples.rake" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\resources\rake\examples_with_rcov.rake" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\resources\rake\failing_examples_with_html.rake" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\resources\rake\verify_rcov.rake" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\Ruby1.9.rdoc" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\autotest\autotest_helper.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\autotest\autotest_matchers.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\autotest\discover_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\autotest\failed_results_re_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\autotest\rspec_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\README.jruby" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\ruby_forker.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec.opts" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\dsl\main_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\example\example_group_class_definition_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\example\example_group_factory_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\example\example_group_methods_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\example\example_group_proxy_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\example\example_group_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\example\example_matcher_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\example\example_methods_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\example\example_proxy_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\example\helper_method_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\example\nested_example_group_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\example\pending_module_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\example\predicate_matcher_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\example\shared_example_group_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\example\subclassing_example_group_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\example\subject_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\expectations\differs\default_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\expectations\extensions\kernel_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\expectations\fail_with_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\expectations\handler_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\expectations\wrap_expectation_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\interop\test\unit\resources\spec_that_fails.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\interop\test\unit\resources\spec_that_passes.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\interop\test\unit\resources\spec_with_errors.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\interop\test\unit\resources\spec_with_options_hash.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\interop\test\unit\resources\testsuite_adapter_spec_with_test_unit.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\interop\test\unit\resources\test_case_that_fails.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\interop\test\unit\resources\test_case_that_passes.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\interop\test\unit\resources\test_case_with_errors.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\interop\test\unit\resources\test_case_with_various_names.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\interop\test\unit\spec_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\interop\test\unit\testcase_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\interop\test\unit\testsuite_adapter_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\interop\test\unit\test_unit_spec_helper.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\be_close_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\be_instance_of_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\be_kind_of_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\be_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\change_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\compatibility_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\description_generation_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\dsl_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\eql_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\equal_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\exist_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\has_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\have_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\include_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\matchers_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\matcher_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\match_array_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\match_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\operator_matcher_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\raise_exception_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\respond_to_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\satisfy_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\simple_matcher_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\matchers\throw_symbol_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\and_yield_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\any_number_of_times_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\argument_expectation_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\argument_matchers_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\at_least_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\at_most_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\bug_report_10260_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\bug_report_10263_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\bug_report_11545_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\bug_report_15719_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\bug_report_496_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\bug_report_600_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\bug_report_7611_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\bug_report_7805_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\bug_report_8165_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\bug_report_8302_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\bug_report_830_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\double_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\failing_argument_matchers_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\hash_including_matcher_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\hash_not_including_matcher_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\mock_ordering_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\mock_space_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\mock_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\multiple_return_value_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\nil_expectation_warning_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\null_object_mock_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\once_counts_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\options_hash_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\partial_mock_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\partial_mock_using_mocks_directly_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\passing_argument_matchers_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\precise_counts_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\record_messages_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\stubbed_message_expectations_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\stub_chain_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\stub_implementation_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\stub_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\twice_counts_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\mocks\unstub_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\package\bin_spec_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\rake\spectask_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\class_and_argument_parser_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\command_line_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\configuration_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\drb_command_line_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\example_group_runner_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\formatter\base_formatter_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\formatter\base_text_formatter_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\formatter\failing_examples_formatter_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\formatter\failing_example_groups_formatter_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\formatter\html_formatter_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\formatter\nested_text_formatter_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\formatter\profile_formatter_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\formatter\progress_bar_formatter_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\formatter\snippet_extractor_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\formatter\specdoc_formatter_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\formatter\text_mate_formatter_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\heckler_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\heckle_runner_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\line_number_query\line_number_query_fixture.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\line_number_query_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\noisy_backtrace_tweaker_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\options_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\option_parser_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\output_one_time_fixture.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\output_one_time_fixture_runner.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\output_one_time_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\quiet_backtrace_tweaker_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\reporter_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\resources\a_bar.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\resources\a_foo.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\resources\a_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\resources\custom_example_group_runner.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\resources\utf8_encoded.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\spec.opts" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\spec_drb.opts" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner\spec_spaced.opts" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec\runner_spec.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\spec_helper.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\support\macros.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\spec\support\spec_classes.rb" />
+    <EmbeddedResource Include="Files\rspec-1.3.0\Upgrade.rdoc" />
     <None Include="Properties\AssemblyInfo_in.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -870,6 +1254,50 @@
     <EmbeddedResource Include="Files\site_ruby\1.8\rubygems\version.rb" />
     <EmbeddedResource Include="Files\site_ruby\1.8\rubygems\version_option.rb" />
     <EmbeddedResource Include="Files\site_ruby\1.8\ubygems.rb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Files\rspec-1.3.0\examples\failing\README.txt" />
+    <Content Include="Files\rspec-1.3.0\License.txt" />
+    <Content Include="Files\rspec-1.3.0\Manifest.txt" />
+    <Content Include="Files\rspec-1.3.0\spec\spec\runner\empty_file.txt" />
+    <Content Include="Files\rspec-1.3.0\spec\spec\runner\examples.txt" />
+    <Content Include="Files\rspec-1.3.0\spec\spec\runner\failed.txt" />
+    <Content Include="Files\rspec-1.3.0\spec\spec\runner\formatter\html_formatted-1.8.6-jruby.html" />
+    <Content Include="Files\rspec-1.3.0\spec\spec\runner\formatter\html_formatted-1.8.6.html" />
+    <Content Include="Files\rspec-1.3.0\spec\spec\runner\formatter\html_formatted-1.8.7.html" />
+    <Content Include="Files\rspec-1.3.0\spec\spec\runner\formatter\html_formatted-1.9.1.html" />
+    <Content Include="Files\rspec-1.3.0\spec\spec\runner\formatter\text_mate_formatted-1.8.6-jruby.html" />
+    <Content Include="Files\rspec-1.3.0\spec\spec\runner\formatter\text_mate_formatted-1.8.6.html" />
+    <Content Include="Files\rspec-1.3.0\spec\spec\runner\formatter\text_mate_formatted-1.8.7.html" />
+    <Content Include="Files\rspec-1.3.0\spec\spec\runner\formatter\text_mate_formatted-1.9.1.html" />
+    <Content Include="Files\rspec-1.3.0\TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
